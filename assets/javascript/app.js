@@ -36,5 +36,6 @@ var Tgame = {
         Tgame.incorrectAnswers = 0;
         Tgame.unanswered = 0;
         clearInterval(clock);
+
     },
 }
