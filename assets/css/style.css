@@ -5,6 +5,7 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-emphasis: center;
+    background-image: url("/assets/images/backgroundspace.jpg");
 }
 
 .achoice {
