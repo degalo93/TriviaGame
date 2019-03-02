@@ -4,9 +4,11 @@
 
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    text-emphasis: center;
 }
 
 .achoice {
+    font-weight: bolder;
     text-align: center;
     padding: 20px;
     border: 5px black;
@@ -14,4 +16,10 @@ body {
     border-style: inset;
 }
 
-h1 {}
+.ablock {}
+
+h1 {
+    text-align: center;
+}
+
+#start {}
