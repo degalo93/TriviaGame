@@ -24,8 +24,8 @@ $(document).ready(function() {
 
         },
         {
-            q: "Heres a free q! The a is the last one",
-            opt: ["1", "8", "what", "I am the right a "],
+            q: "Heres a free question! The answer is the last one",
+            opt: ["1", "8", "what", "I am the right answer "],
             a: 3,
 
         }
