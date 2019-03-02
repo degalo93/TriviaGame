@@ -5,30 +5,35 @@ $(document).ready(function() {
             q: "Beryllium has an atomic number of what ? ",
             opt: ["4", "18", "6", "88"],
             a: 3,
+            photo: "assets/images/science-rocks_.jpg",
 
         },
         {
             q: "What is the chemical formula of alcohol that is consumed by people?",
             opt: ["C2H5OH", "OH", "OUCHMYHEAD", "OHNO"],
             a: 0,
+            photo: "assets/images/science.jpg",
 
         },
         {
             q: "What does ATP stand for ",
             opt: ["Association of tennis professionals", "Art to paint", "advance technology program", "adenosine triphosphate"],
             a: 3,
+            photo: "assets/images/menofsci.jpg",
 
         },
         {
             q: " Analysis of DNA sequences suggests that eukaryotic mitochondrial genomes primarily originated from?",
             opt: ["fungi", "protozoa", "algae", "bacteria"],
             a: 3,
+            photo: "assets/images/smart.jpg",
 
         },
         {
             q: "Heres a free question! The answer is the last one",
             opt: ["1", "8", "what", "I am the right answer "],
             a: 3,
+            photo: "assets/images/science.jpg",
 
         }
     ];

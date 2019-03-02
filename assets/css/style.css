@@ -1,0 +1,17 @@
+#ablock {
+    text-align: center;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.achoice {
+    text-align: center;
+    padding: 20px;
+    border: 5px black;
+    border-radius: 5px;
+    border-style: inset;
+}
+
+h1 {}
