@@ -1,4 +1,6 @@
 $(document).ready(function() {
+
+    //These will be the options for the questions in the quiz I initialy had made a bunch of seperated varibles and found that it was easier to manipulate the code if all of my question and answers would be in the same srting like the way i have it now 
     var opts = [{
             q: "Beryllium has an atomic number of what ? ",
             opt: ["4", "18", "6", "88"],
@@ -31,6 +33,7 @@ $(document).ready(function() {
         }
     ];
 
+    //next are the varibles for the amount correct amount wrong the timer counter and a some variables that can hold  a few things
     var amountCorrect = 0;
     var amountWrong = 0;
     var unanswer = 0;
@@ -57,12 +60,15 @@ $(document).ready(function() {
         }
     })
 
+    //important to add a function that wont speed up the count 
     function runTimer() {
         if (!running) {
             intervalId = setInterval(decrement, 1000);
             running = true;
         }
     }
+
+
 
     function decrement() {
         $("#timeleft").html("<h3>Time remaining: " + timer + "</h3>");
