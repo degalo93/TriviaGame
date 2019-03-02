@@ -4,7 +4,7 @@ $(document).ready(function() {
     var opts = [{
             q: "Beryllium has an atomic number of what ? ",
             opt: ["4", "18", "6", "88"],
-            a: 3,
+            a: 0,
             photo: "assets/images/science-rocks_.jpg",
 
         },
